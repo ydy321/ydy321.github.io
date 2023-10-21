@@ -3,11 +3,11 @@
   <title>YDY321</title>
   
   <subtitle>道阻且长，行则将至；行而不辍，未来可期</subtitle>
-  <link href="https://ydy321.git.io/atom.xml" rel="self"/>
+  <link href="https://ydy321.github.io/atom.xml" rel="self"/>
   
-  <link href="https://ydy321.git.io/"/>
+  <link href="https://ydy321.github.io/"/>
   <updated>2023-10-18T11:05:44.333Z</updated>
-  <id>https://ydy321.git.io/</id>
+  <id>https://ydy321.github.io/</id>
   
   <author>
     <name>ydy321</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://ydy321.git.io/2023/10/18/hello-world/"/>
-    <id>https://ydy321.git.io/2023/10/18/hello-world/</id>
+    <link href="https://ydy321.github.io/2023/10/18/hello-world/"/>
+    <id>https://ydy321.github.io/2023/10/18/hello-world/</id>
     <published>2023-10-18T11:08:17.304Z</published>
     <updated>2023-10-18T11:05:44.333Z</updated>
     
