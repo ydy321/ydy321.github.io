@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/10/18/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title></title>
     <url>/2023/10/21/Contour%20Context%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/</url>
     <content><![CDATA[<h5 id="Contour-Context-Abstract-Structural-Distribution-for-3D-LiDAR-Loop-Detection-and-Metric-Pose-Estimation-论文阅读-ICRA’23"><a href="#Contour-Context-Abstract-Structural-Distribution-for-3D-LiDAR-Loop-Detection-and-Metric-Pose-Estimation-论文阅读-ICRA’23" class="headerlink" title="Contour Context: Abstract Structural Distribution for 3D LiDAR Loop Detection and Metric Pose Estimation 论文阅读  ICRA’23"></a>Contour Context: Abstract Structural Distribution for 3D LiDAR Loop Detection and Metric Pose Estimation 论文阅读  ICRA’23</h5><p><strong>Authors:</strong> Binqian Jiang and Shaojie Shen from the <a href="https://uav.hkust.edu.hk/">HKUST Aerial Robotics Group</a>.</p>
@@ -121,7 +103,7 @@
 <p>2)度量姿态估计:见表。ii。</p>
 <p>​                                               表二:在最大F1得分时，TP循环的三个自由度MPE。</p>
 <p>![018](C:\Users\yudin\Pictures\Contour context\018.png)</p>
-<p>3)计算复杂度:不同方法的资源消耗是依赖于实现的，不能直接比较。所以我们只在Tab中列出我们的时间消耗数据。三供参考。原型是用c++编写的，并在带有16GB RAM的英特尔酷睿<a href="mailto:&#105;&#x37;&#x2d;&#x39;&#x37;&#x35;&#x30;&#72;&#64;&#50;&#x2e;&#54;&#48;&#71;&#x48;&#122;">&#105;&#x37;&#x2d;&#x39;&#x37;&#x35;&#x30;&#72;&#64;&#50;&#x2e;&#54;&#48;&#71;&#x48;&#122;</a>笔记本电脑CPU上进行评估。我们自己编写的代码中不使用多线程。我们将每个序列运行3次，然后取平均值。关于影响复杂度的细节，我们在3个级别索引检索键，每个级别有6个锚ca。外围ca为4级中每级前10名。每个10-D键在每个查询中检索50个候选项。kd -tree每100次扫描更新一次，每次更新一个级别。我们把总体效率归因于基本操作的简单性。</p>
+<p>3)计算复杂度:不同方法的资源消耗是依赖于实现的，不能直接比较。所以我们只在Tab中列出我们的时间消耗数据。三供参考。原型是用c++编写的，并在带有16GB RAM的英特尔酷睿<a href="mailto:&#x69;&#x37;&#45;&#x39;&#55;&#53;&#x30;&#x48;&#64;&#50;&#x2e;&#x36;&#x30;&#x47;&#x48;&#122;">&#x69;&#x37;&#45;&#x39;&#55;&#53;&#x30;&#x48;&#64;&#50;&#x2e;&#x36;&#x30;&#x47;&#x48;&#122;</a>笔记本电脑CPU上进行评估。我们自己编写的代码中不使用多线程。我们将每个序列运行3次，然后取平均值。关于影响复杂度的细节，我们在3个级别索引检索键，每个级别有6个锚ca。外围ca为4级中每级前10名。每个10-D键在每个查询中检索50个候选项。kd -tree每100次扫描更新一次，每次更新一个级别。我们把总体效率归因于基本操作的简单性。</p>
 <p>![017](C:\Users\yudin\Pictures\Contour context\017.png)</p>
 <p>​                                                       图6:本方法的查全率曲线及6条基线。</p>
 <p>表III:数据集大小和分解的平均时间成本每扫描(ms)。</p>
@@ -144,6 +126,24 @@
 <p>CAC 是 Contour Context 中的缩写，指的是 Contour Anchor Cluster，即轮廓锚点聚类。在 Contour Context 中，CAC 是指将相似的轮廓锚点聚类在一起，形成的一组轮廓。每个 CAC 由一个锚点和一组周边轮廓组成，锚点是 CAC 中最大的轮廓，周边轮廓是与锚点相邻的轮廓。</p>
 <p>6.成对CA相似度的要求（第三页）</p>
 <p>对于成对 CA 相似度的要求，在 Contour Context 中，我们<strong>使用相似性检查函数来检查每个 CAC 中的周边轮廓与锚点轮廓之间的相似度。我们使用每个轮廓的形状协方差矩阵的特征向量和特征值来计算相似度。如果两个轮廓之间的相似度高于阈值，则将它们视为相似的轮廓，并将它们分配到同一个 CAC 中。</strong>这个过程可以在第二个阶段中进一步优化，通过将场景建模为 2.5D 高斯混合模型（GMM）来优化连续空间中的相对变换。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/10/18/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
 </search>
